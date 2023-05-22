@@ -2,11 +2,15 @@
   "name": "hexcamp-webrtc-star",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "node_modules/.bin/webrtc-star",
   "scripts": {
+    "start": "webrtc-star",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Jim Pick (@jimpick)",
-  "license": "MIT/Apache-2 (Permissive License Stack)"
+  "license": "MIT/Apache-2 (Permissive License Stack)",
+  "dependencies": {
+    "libp2p-webrtc-star-signalling-server": "^0.1.2"
+  }
 }
