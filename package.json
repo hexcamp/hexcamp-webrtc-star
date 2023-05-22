@@ -4,7 +4,7 @@
   "description": "",
   "main": "node_modules/.bin/webrtc-star",
   "scripts": {
-    "start": "webrtc-star",
+    "start": "webrtc-star --port 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
