@@ -15,12 +15,11 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: buildpacks-action
         # You may pin to the exact commit or the version.
-        uses: mamezou-tech/buildpacks-action@2dae9b2cb4ebee59ed45f598bf314ca7fc7116b4
-        # uses: mamezou-tech/buildpacks-action@v0.5.0
+        uses: mamezou-tech/buildpacks-action@v0.7.0
         with:
           # Name of container image
           image: ${{ env.IMAGE_NAME }}
