@@ -35,8 +35,7 @@ jobs:
           # Path to target application, defaults to the current directory
           #path: # optional, default is .
           # Builder to use
-          #builder: paketobuildpacks/builder:base
-          builder: paketobuildpacks/builder:full
+          builder: paketobuildpacks/builder:base
           # Custom buildpacks to use
           buildpacks: gcr.io/paketo-buildpacks/nodejs
           # Build-time environment variables
